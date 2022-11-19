@@ -37,7 +37,14 @@ Table of contents
 
 * LND
 * cron
+* jq
 
+* Install `jq`, a JSON processor that will be used to parse the transaction data
+
+  ```sh
+  $ sudo apt update
+  $ sudo apt install jq --install-recommends
+  ```
 ---
 
 ## Setup AmbossPing
